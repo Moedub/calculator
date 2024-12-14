@@ -11,3 +11,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+# https://www.geeksforgeeks.org/python-simple-gui-calculator-using-tkinter/
