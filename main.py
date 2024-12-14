@@ -1,19 +1,13 @@
 import tkinter as tk
-from gui import create_calculator_gui
+from gui import CalculatorApp
 
 def main() -> None:
     """
-    Main function to initialize the Calculator application.
-    It sets up the GUI and handles toggling between the calculator and area functions.
+    Main function to initialize and start the application.
     """
-    window = tk.Tk()
-    window.title("Calculator App")
-
-    # Set up the calculator GUI
-    create_calculator_gui(window)
-
-    # Run the main loop
-    window.mainloop()
+    root = tk.Tk()
+    app = CalculatorApp(root)
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
